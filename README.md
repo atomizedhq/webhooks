@@ -24,12 +24,12 @@ Installation
 Use go get.
 
 ```shell
-go get -u gopkg.in/go-playground/webhooks.v5
+go get -u github.com/atomizedhq/webhooks.v5/github
 ```
 
 Then import the package into your own code.
 
-	import "gopkg.in/go-playground/webhooks.v5"
+	import "github.com/atomizedhq/webhooks.v5/github"
 
 Usage and Documentation
 ------
@@ -45,7 +45,7 @@ import (
 
 	"net/http"
 
-	"gopkg.in/go-playground/webhooks.v5/github"
+	"github.com/atomizedhq/webhooks.v5/github"
 )
 
 const (
